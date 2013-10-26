@@ -1,0 +1,2 @@
+require 'rack'
+require 'RockPaperScissors/server.rb'

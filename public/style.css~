@@ -1,0 +1,97 @@
+#global{
+  width:770px;
+  margin: 0 auto 0 auto;
+  background: url("img/authority-c.jpg") #000;
+  background-repeat: no-repeat;
+}
+
+#titulo{
+  width: 770px;
+  position: relative;
+  height: 50px;
+  margin: 10;
+  padding: 1%;
+  background: #000;
+  color: #FFF;
+  outline-style: outset;
+  outline-color: #848484;
+}
+
+#oponente{
+	color: #FE2E2E;
+}
+
+#resul{
+	color: #04B404;
+}
+
+#usuario{
+  width: 570px;
+  position: relative;
+  height: 50px;
+  margin: 10;
+  padding: 2% 0 0 0;
+  background: #6685CC;
+  color: #FFF;
+  outline-style: outset;
+  outline-color: #6685CC;
+}
+
+#ordenador{
+  width: 570px;
+  position: relative;
+  height: 50px;
+  margin: 3% 0 3% 0;
+  padding: 2% 0 0 0;
+  background: #FE2E2E;
+  color: #FFF;
+  outline-style: outset;
+  outline-color: #FE2E2E;
+}
+
+#resultado{
+  width: 570px;
+  position: relative;
+  height: 50px;
+  margin: 5% 0 3% 0;
+  padding: 2% 0 0 0;
+  background: #2EFE2E;
+  color: #FFF;
+  outline-style: outset;
+  outline-color: #2EFE2E;
+}
+
+#historial{
+  width: 570px;
+  position: relative;
+  height: 50px;
+  margin: 9% 0 3% 0;
+  padding: 2% 0 0 0;
+  background: #6685CC;
+  color: #FFF;
+  outline-style: outset;
+  outline-color: #6685CC;
+}
+
+#boton{
+	font-size:14px;
+	font-family:Verdana,Helvetica;
+  font-weight:bold;
+  color:white;
+  background:#8258FA;
+  border:0px;
+  width:100px;
+  height:30px;
+  outline-style: outset;
+  outline-color: #8258FA;
+}
+
+#form{
+	margin: 0 auto;
+	width: 400px;
+	padding: 14px;
+	border: solid 1px #FFF;
+  background: #FFF;
+  outline-style: outset;
+  outline-color: #FFF;
+}
