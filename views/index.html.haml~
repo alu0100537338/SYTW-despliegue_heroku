@@ -9,7 +9,7 @@
     %center
       %h1#titulo Jugando a -> Piedra, Papel o Tijeras
       %h2#usuario Usuario
-      -if ( inicial == 'No olvides elegir elmento!')
+      -if (inicial == 'No olvides elegir elmento!')
         %br
         -throws.map do |x| 
           %a{:href=>"/?choice=#{x}"}
