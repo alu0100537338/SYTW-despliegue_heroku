@@ -1,6 +1,9 @@
-desc "Arrancamos servidor"
-task :default do
-  sh "rackup"
+desc "Arrancamos la aplicacion"
+task :default => :server
+
+desc "Arrancamos el servidor"
+task :server do
+	sh "bundle exec rackup"
 end
 
 desc "Testing con pruebas unitarias"
