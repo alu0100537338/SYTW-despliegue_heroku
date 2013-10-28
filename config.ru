@@ -7,13 +7,4 @@ require './lib/rock_paper.rb'
   	{:key => 'rack.session',
     :secret => 'cookie'}
     
-  use Rack::Server.start(
-		:app => builder,
-		:Port => 8080,
-  	:server => 'thin'
-		)
-
 	run RockPaperScissors::App.new
-
-
-
